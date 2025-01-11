@@ -1,1 +1,15 @@
-streamlit
+streamlit==1.28.1
+pandas
+numpy
+sentence-transformers
+transformers
+torch
+langchain
+PyPDF2
+pythainlp
+google-generativeai
+requests
+langchain-huggingface
+fixthaipdf
+pysqlite3-binary
+chromadb==0.4.17
