@@ -75,7 +75,7 @@ def legal_guidance_page():
         employee = st.number_input("Number of Employees:", min_value=0, step=1)
         submit_button = st.form_submit_button("Get Guidance")
 
-  st.write("### Legal Guidance:")
+  with st.write("### Legal Guidance:")
         st.write("""
 1. ประเภทอาหารและการจำแนกตาม TSIC ที่เกี่ยวข้อง:
    - ประเภทอาหาร: ผลิตภัณฑ์เนื้อสัตว์แปรรูป
