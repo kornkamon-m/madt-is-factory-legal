@@ -13,3 +13,4 @@ langchain-huggingface
 fixthaipdf
 pysqlite3-binary
 chromadb==0.4.17
+langchain-community
