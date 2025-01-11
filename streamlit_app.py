@@ -74,9 +74,9 @@ def legal_guidance_page():
         machine_power = st.number_input("Machine Power (HP):", min_value=0, step=1)
         employee = st.number_input("Number of Employees:", min_value=0, step=1)
         submit_button = st.form_submit_button("Get Guidance")
-
-  with st.write("### Legal Guidance:")
-        st.write("""
+    
+    with st.write("### Legal Guidance:")
+    st.write("""
 1. ประเภทอาหารและการจำแนกตาม TSIC ที่เกี่ยวข้อง:
    - ประเภทอาหาร: ผลิตภัณฑ์เนื้อสัตว์แปรรูป
    - การจำแนกตาม TSIC: หมวด 1013 - การผลิตผลิตภัณฑ์เนื้อสัตว์แปรรูป เช่น ไส้กรอก
